@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Trabalho Bootstrap</title>
+</head>
+<style>
+    .Fundo{
+        width: 100%;
+        height: 100%;
+    }
+    .distancia{
+        padding-bottom: 30%;
+    }
+    body{
+        background-color: black;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-xl bg-dark navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Página Inicial</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <div class="mr-auto">
+                    <ul class="navbar-nav lead">
+                        <li class="nav-item">
+                            <a href="Apresentação.html" class="nav-link text-white">Apresentação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white">Quem somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Produtos.html" class="nav-link text-white">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Cadastre-se.html" class="nav-link text-white">Cadastre-se</a>
+                        </li>
+                        <li>
+                            <a href="#" style="width:50px; height:50px; padding-top: 10px;"
+                                class= "btn btn-outline-success ml-xl-3 mb-3 mb-xl-0 mx-sm-auto d-block rounded-circle">
+                                Sair
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="">
+        <div>
+            <div class="carousel-item active">
+                
+                <img class="Fundo" src="IMG/5.jpg" alt="Aperto de mão" class="d-block fundo">
+                <div class="carousel-caption text-light d-none d-xl-block">
+                    <h1 class="display-1">Quem somos</h1>
+                    <a class="display-3 distancia">Somos uma concessionária conceituada no mercado automotivo,trabalhamos com veiculos 
+                        nacionais e importados, temos muitas lojas fisicas espalhadas pelo Brasil,e para melhor atender nossos clientes criamos
+                    nosso site.</a>
+                </div>
+                <div class=" carousel-caption text-light d-none d-xl-none d-lg-block">
+                    <h1 class="display-2">Quem somos</h1>
+                    <h3 class="display-4 distancia2">Somos uma concessionária conceituada no mercado automotivo,trabalhamos com veiculos 
+                            nacionais e importados, temos muitas lojas fisicas espalhadas pelo Brasil,e para melhor atender nossos clientes criamos
+                        nosso site.</h3>
+                </div>
+                <div class="carousel-caption text-light d-lg-none distancia3">
+                    <h2 class="">Quem somos</h2>
+                    <h4 class="lead">Somos uma concessionária conceituada no mercado automotivo,trabalhamos com veiculos 
+                            nacionais e importados, temos muitas lojas fisicas espalhadas pelo Brasil,e para melhor atender nossos clientes criamos
+                        nosso site.</h4>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
